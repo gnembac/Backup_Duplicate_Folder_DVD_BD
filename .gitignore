@@ -1,0 +1,37 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Project data - never publish (manifests, plans, reports, databases, images)
+*.csv
+*.csv.gz
+*.sqlite
+*.db
+*.pkl
+*.iso
+*.dxp
+*.map
+*.log
+_Berichte/
+_MANIFEST/
+_MDISC/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+
+# OS / sync clients
+Thumbs.db
+desktop.ini
+.DS_Store
+.SynologyWorkingDirectory/
+@eaDir/
